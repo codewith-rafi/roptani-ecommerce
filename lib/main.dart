@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:roptani_ecommerce/utils/theme/theme.dart';
 
 void main() {
-  runApp(const roptani());
+  runApp(const Roptani());
 }
 
-class roptani extends StatelessWidget {
-  const roptani({super.key});
+class Roptani extends StatelessWidget {
+  const Roptani({super.key});
 
   // This widget is the root of your application.
   @override
@@ -13,9 +14,9 @@ class roptani extends StatelessWidget {
     return MaterialApp(
       title: 'Roptani',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      themeMode: ThemeMode.system,
+      theme: RAppTheme.lightTheme,
+      darkTheme: RAppTheme.darkTheme,
     );
   }
 }

@@ -12,8 +12,8 @@ class RChipTheme {
   );
 
   static ChipThemeData darkChipTheme = ChipThemeData(
-    disabledColor: Colors.grey.withValues(alpha: 0.4),
-    labelStyle: TextStyle(color: Colors.black),
+    disabledColor: Colors.grey,
+    labelStyle: TextStyle(color: Colors.white),
     selectedColor: Colors.blue,
     padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
     checkmarkColor: Colors.white,

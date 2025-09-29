@@ -25,4 +25,21 @@ class RTextFieldTheme {
     focusedErrorBorder: border.copyWith(borderSide: BorderSide(width: 2, color: Colors.orange)),
 
   );
+
+  static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
+    errorMaxLines: 3,
+    prefixIconColor: Colors.grey,
+    suffixIconColor: Colors.grey,
+
+    labelStyle: TextStyle().copyWith(fontSize: 14, color: Colors.white),
+    hintStyle: TextStyle().copyWith(fontSize: 14, color: Colors.white),
+    errorStyle: TextStyle().copyWith(fontWeight: FontWeight.normal),
+    floatingLabelStyle: TextStyle().copyWith(color: Colors.white.withValues(alpha: 0.8)),
+
+    border: border.copyWith(borderSide: BorderSide(color: Colors.grey)),
+    enabledBorder: border.copyWith(borderSide: BorderSide(color: Colors.grey)),
+    focusedBorder: border.copyWith(borderSide: BorderSide(color: Colors.white)),
+    errorBorder: border.copyWith(borderSide: BorderSide(color: Colors.red)),
+    focusedErrorBorder: border.copyWith(borderSide: BorderSide(width: 2, color: Colors.orange)),
+  );
 }
