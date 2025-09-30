@@ -1,82 +1,82 @@
 /* -- App Text Strings -- */
 
 /// This class contains all the App Text in String formats.
-class RTexts {
-  // -- GLOBAL Te  static const String rhenLets = "Then let's ";ts
-  static const String rNo = "No";
+class TTexts {
+  // -- GLOBAL Texts
+  static const String tNo = "No";
   static const String and = "and";
-  static const String rYes = "Yes";
+  static const String tYes = "Yes";
   static const String skip = "Skip";
   static const String done = "Done";
-  static const String rNext = "Next";
-  static const String rLogin = "Login";
+  static const String tNext = "Next";
+  static const String tLogin = "Login";
   static const String email = "E-Mail";
   static const String submit = "Submit";
-  static const String rEmail = "E-Mail";
-  static const String rSignup = "Signup";
-  static const String rLogout = "Logout";
+  static const String tEmail = "E-Mail";
+  static const String tSignup = "Signup";
+  static const String tLogout = "Logout";
   static const String appName = "T-Store";
   static const String ohSnap = "Oh Snap!";
-  static const String rSuccess = "Success";
-  static const String rPhoneNo = "Phone No";
+  static const String tSuccess = "Success";
+  static const String tPhoneNo = "Phone No";
   static const String password = "Password";
-  static const String rContinue = "Continue";
-  static const String rPassword = "Password";
-  static const String rFullName = "Full Name";
-  static const String rGetStarted = "Get Started";
-  static const String rForgetPassword = "Forget Password?";
+  static const String tContinue = "Continue";
+  static const String tPassword = "Password";
+  static const String tFullName = "Full Name";
+  static const String tGetStarted = "Get Started";
+  static const String tForgetPassword = "Forget Password?";
   static const String homeAppbarSubTitle = "Coding With T";
-  static const String rSignInWithGoogle = "Sign-In with Google";
+  static const String tSignInWithGoogle = "Sign-In with Google";
 
   // -- Validation --
-  static const String rEmailCannotEmpty = "Email cannot be empty";
-  static const String rInvalidEmailFormat = "Invalid email format";
-  static const String rNoRecordFound = "No record found";
+  static const String tEmailCannotEmpty = "Email cannot be empty";
+  static const String tInvalidEmailFormat = "Invalid email format";
+  static const String tNoRecordFound = "No record found";
 
   // -- SnackBar --
-  static const String rAlert = "Alert";
-  static const String rOhSnap = "Oh Snap";
-  static const String rEmailSent = "Hurray!!! Email is on its way.";
-  static const String rCongratulations = "Congratulations";
-  static const String rEmailLinkToResetPassword = "Email Link To Reset Password";
-  static const String rAccountCreateVerifyEmail = "Account Create Verify Email";
+  static const String tAlert = "Alert";
+  static const String tOhSnap = "Oh Snap";
+  static const String tEmailSent = "Hurray!!! Email is on its way.";
+  static const String tCongratulations = "Congratulations";
+  static const String tEmailLinkToResetPassword = "Email Link To Reset Password";
+  static const String tAccountCreateVerifyEmail = "Account Create Verify Email";
 
   // -- Splash Screen Text
-  static const String rAppName = "Starter Template";
-  static const String rAppTagLine = "Learn To Code. \nFree For Everyone";
+  static const String tAppName = "Starter Template";
+  static const String tAppTagLine = "Learn To Code. \nFree For Everyone";
 
   // -- On Boarding Text
-  static const String rOnBoardingTitle1 = "Build Awesome Apps";
-  static const String rOnBoardingTitle2 = "Learn from YouTube";
-  static const String rOnBoardingTitle3 = "Get Code & Resources";
-  static const String rOnBoardingSubTitle1 = "Let's start your journey with us on this amazing and easy platform.";
-  static const String rOnBoardingSubTitle2 = "Get Video Tutorials of each topic to learn things easily.";
-  static const String rOnBoardingSubTitle3 = "Save time by just copy pasting complete apps you learned from videos.";
-  static const String rOnBoardingCounter1 = "1/3";
-  static const String rOnBoardingCounter2 = "2/3";
-  static const String rOnBoardingCounter3 = "3/3";
+  static const String tOnBoardingTitle1 = "Build Awesome Apps";
+  static const String tOnBoardingTitle2 = "Learn from YouTube";
+  static const String tOnBoardingTitle3 = "Get Code & Resources";
+  static const String tOnBoardingSubTitle1 = "Let's start your journey with us on this amazing and easy platform.";
+  static const String tOnBoardingSubTitle2 = "Get Video Tutorials of each topic to learn things easily.";
+  static const String tOnBoardingSubTitle3 = "Save time by just copy pasting complete apps you learned from videos.";
+  static const String tOnBoardingCounter1 = "1/3";
+  static const String tOnBoardingCounter2 = "2/3";
+  static const String tOnBoardingCounter3 = "3/3";
 
   // -- Welcome Screen Text
-  static const String rWelcomeTitle = "Build Awesome Apps";
-  static const String rWelcomeSubTitle = "Let's put your creativity on the development highway.";
+  static const String tWelcomeTitle = "Build Awesome Apps";
+  static const String tWelcomeSubTitle = "Let's put your creativity on the development highway.";
 
   // -- Login Screen Text
-  static const String rLoginTitle = "Welcome Back,";
-  static const String rLoginSubTitle = "Make it work, make it right, make it fast.";
-  static const String rRememberMe = "Remember Me?";
-  static const String rDontHaveAnAccount = "Don't have an Account";
-  static const String rEnterYour = "Enter your";
-  static const String rResetPassword = "Reset Password";
-  static const String rOR = "OR";
-  static const String rConnectWith = "Connect With";
-  static const String rFacebook = "Facebook";
-  static const String rPhoneNumber = "Phone Number";
-  static const String rGoogle = "Google";
+  static const String tLoginTitle = "Welcome Back,";
+  static const String tLoginSubTitle = "Make it work, make it right, make it fast.";
+  static const String tRememberMe = "Remember Me?";
+  static const String tDontHaveAnAccount = "Don't have an Account";
+  static const String tEnterYour = "Enter your";
+  static const String tResetPassword = "Reset Password";
+  static const String tOR = "OR";
+  static const String tConnectWith = "Connect With";
+  static const String tFacebook = "Facebook";
+  static const String tPhoneNumber = "Phone Number";
+  static const String tGoogle = "Google";
 
   // -- Sign Up Screen Text
-  static const String rSignUpTitle = "Get On Board!";
-  static const String rSignUpSubTitle = "Create your profile to start your Journey.";
-  static const String rAlreadyHaveAnAccount = "Already have an Account";
+  static const String tSignUpTitle = "Get On Board!";
+  static const String tSignUpSubTitle = "Create your profile to start your Journey.";
+  static const String tAlreadyHaveAnAccount = "Already have an Account";
 
   // -- Verify Email Screen Text
   static const String confirmEmail = "Verify your email address!";
@@ -87,21 +87,21 @@ class RTexts {
 
 
   // -- Forget Password Text
-  static const String rForgetPasswordTitle = "Make Selection!";
-  static const String rForgetPasswordSubTitle = "Select one of the options given below to reset your password.";
-  static const String rResetViaEMail = "Reset via Mail Verification";
-  static const String rResetViaPhone = "Reset via Phone Verification";
+  static const String tForgetPasswordTitle = "Make Selection!";
+  static const String tForgetPasswordSubTitle = "Select one of the options given below to reset your password.";
+  static const String tResetViaEMail = "Reset via Mail Verification";
+  static const String tResetViaPhone = "Reset via Phone Verification";
 
   // -- Forget Password Via Phone - Text
-  static const String rForgetPhoneSubTitle = "Enter your registered Phone No to receive OTP";
+  static const String tForgetPhoneSubTitle = "Enter your registered Phone No to receive OTP";
 
   // -- Forget Password Via E-Mail - Text
-  static const String rForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
+  static const String tForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
 
   // -- OTP Screen - Text
-  static const String rOtpTitle = "CO\nDE";
-  static const String rOtpSubTitle = "Verification";
-  static const String rOtpMessage = "Enter the verification code sent on your Phone Number ";
+  static const String tOtpTitle = "CO\nDE";
+  static const String tOtpSubTitle = "Verification";
+  static const String tOtpMessage = "Enter the verification code sent on your Phone Number ";
 
   // -- Phone Number Authentication - Text
   static const String phoneNo = '745-628-5429';
@@ -127,40 +127,40 @@ class RTexts {
   static const String thenLets = "Then let’s ";
 
   // -- Email Verification
-  static const String rEmailVerificationTitle = "Verify your email address";
-  static const String rEmailVerificationSubTitle =
+  static const String tEmailVerificationTitle = "Verify your email address";
+  static const String tEmailVerificationSubTitle =
       "We have just send email verification link on your email. Please check email and click on that link to verify your Email address. \n\n If not auto redirected after verification, click on the Continue button.";
-  static const String rResendEmailLink = "Resend E-Mail Link";
-  static const String rBackToLogin = "Back to login";
+  static const String tResendEmailLink = "Resend E-Mail Link";
+  static const String tBackToLogin = "Back to login";
 
   // -- Dashboard Screen - Text
-  static const String rDashboardTitle = "Hey, Coding with T";
-  static const String rDashboardHeading = "Explore Courses";
-  static const String rDashboardSearch = "Search...";
-  static const String rDashboardBannerTitle2 = "JAVA";
-  static const String rDashboardButton = "View All";
-  static const String rDashboardTopCourses = "Top Courses";
-  static const String rDashboardBannerSubTitle = "10 Lessons";
-  static const String rDashboardBannerTitle1 = "Android for Beginners";
+  static const String tDashboardTitle = "Hey, Coding with T";
+  static const String tDashboardHeading = "Explore Courses";
+  static const String tDashboardSearch = "Search...";
+  static const String tDashboardBannerTitle2 = "JAVA";
+  static const String tDashboardButton = "View All";
+  static const String tDashboardTopCourses = "Top Courses";
+  static const String tDashboardBannerSubTitle = "10 Lessons";
+  static const String tDashboardBannerTitle1 = "Android for Beginners";
 
   // -- Profile Screen - Text
-  static const String rProfile = "Profile";
-  static const String rEditProfile = "Edit Profile";
-  static const String rLogoutDialogHeading = "Logout";
-  static const String rProfileHeading = "Coding with T";
-  static const String rProfileSubHeading = "superAdmin@codingwitht.com";
+  static const String tProfile = "Profile";
+  static const String tEditProfile = "Edit Profile";
+  static const String tLogoutDialogHeading = "Logout";
+  static const String tProfileHeading = "Coding with T";
+  static const String tProfileSubHeading = "superAdmin@codingwitht.com";
 
   // -- Menu
-  static const String rMenu5 = rLogout;
-  static const String rMenu1 = "Settings";
-  static const String rMenu4 = "Information";
-  static const String rMenu2 = "Billing Details";
-  static const String rMenu3 = "User Management";
+  static const String tMenu5 = tLogout;
+  static const String tMenu1 = "Settings";
+  static const String tMenu4 = "Information";
+  static const String tMenu2 = "Billing Details";
+  static const String tMenu3 = "User Management";
 
   // -- Update Profile Screen - Text
-  static const String rDelete = "Delete";
-  static const String rJoined = "Joined ";
-  static const String rJoinedAt = " 31 October 2022";
+  static const String tDelete = "Delete";
+  static const String tJoined = "Joined ";
+  static const String tJoinedAt = " 31 October 2022";
 
   // -- Validation
   static const String dateOfBirthError = "You must be at least 18 years old.";

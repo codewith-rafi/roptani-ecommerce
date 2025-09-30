@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RTextFieldTheme {
-  RTextFieldTheme._();
+class TTextFieldTheme {
+  TTextFieldTheme._();
 
   static final border = OutlineInputBorder(
     borderRadius: BorderRadius.circular(14),
@@ -23,7 +23,6 @@ class RTextFieldTheme {
     focusedBorder: border.copyWith(borderSide: BorderSide(color: Colors.black12)),
     errorBorder: border.copyWith(borderSide: BorderSide(color: Colors.red)),
     focusedErrorBorder: border.copyWith(borderSide: BorderSide(width: 2, color: Colors.orange)),
-
   );
 
   static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(

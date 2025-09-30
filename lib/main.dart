@@ -1,22 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:roptani_ecommerce/utils/theme/theme.dart';
+import 'package:roptani_ecommerce/app.dart';
+// import 'package:roptani_ecommerce/utils/theme/theme.dart';
 
 void main() {
+  // ToDo: Add widgets binding
+  // ToDo: Init Local Storage
+  // ToDo: Await Native Splash
+  // ToDo: Initialize Firebase
+  // ToDo: Initialize Authentication
   runApp(const Roptani());
-}
-
-class Roptani extends StatelessWidget {
-  const Roptani({super.key});
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Roptani',
-      debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.system,
-      theme: RAppTheme.lightTheme,
-      darkTheme: RAppTheme.darkTheme,
-    );
-  }
 }

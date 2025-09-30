@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RAppBarTheme {
-  RAppBarTheme._();
+class TAppBarTheme {
+  TAppBarTheme._();
 
   static const lightAppBarTheme = AppBarThemeData(
     elevation: 0,

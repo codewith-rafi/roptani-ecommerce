@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class RBottomSheetTheme {
-  RBottomSheetTheme._();
+class TBottomSheetTheme {
+  TBottomSheetTheme._();
 
   static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
